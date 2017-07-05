@@ -116,6 +116,94 @@ namespace ArraysPractice
             //Console.WriteLine(palidromeNumbers[0]);
             //Console.WriteLine(palidromeNumbers[2]);
 
+            //// Sort - will sort numbers in an array from lowest to highest; will sort characters & strings in alph order from A-Z
+            //string[] powerRangers = { "Green", "Yellow", "Pink", "Blue", "Red", "Black" };
+            //Console.WriteLine(powerRangers[0]);
+            //Array.Sort(powerRangers);
+            //Console.WriteLine(powerRangers[0]);
+
+            //string[] powerRangers = { "Green", "Yellow", "Pink", "Blue", "Red", "Black", "black" };
+            //Console.WriteLine(powerRangers[0]);
+            //Array.Sort(powerRangers);
+            //Console.WriteLine(powerRangers[0]); // if one string is lowercase and another is uppercase, the lowercase string will always appear in the order first
+
+            // Declare and initialize a string array of first names; choose a name to find and print the IndexOf
+            // string[] firstNames = { "Jim", "Joe", "John", "Jennifer" };
+            // Console.WriteLine(Array.IndexOf(firstNames, "John"));
+
+            // Create an array of lucky numbers; each number should repeat at least once; choose a lucky number; find and print the last index of it
+            // int[] luckyNumbers = { 2, 12, 14, 32, 67, 2, 12, 14, 32, 67 };
+            // Console.WriteLine(Array.LastIndexOf(luckyNumbers, 12));
+
+            // Create an array of alphabet characters; print the first index of the array
+            // char[] alphabetCharacters = { 'A', 'B', 'C', 'D', 'E', 'F' };
+            // Console.WriteLine(alphabetCharacters[1]);
+
+            // Now reverse the array and print the first index
+            // Array.Reverse(alphabetCharacters);
+            // Console.WriteLine(alphabetCharacters[1]);
+
+            // Create an array of student names in random order; order the students’ names using the sort method
+            // string[] studentNames = { "Jim Smith", "Joe Miller", "John Stevens", "Jennifer Meyer" };
+            // Array.Sort(studentNames);
+            // print the first and last students’ names
+            // Console.WriteLine(studentNames[0]);
+            // Console.WriteLine(studentNames[3]);
+
+            // int lengthOfStudentNames = studentNames.Length;
+            // Console.WriteLine(studentNames[lengthOfStudentNames - 1]);
+
+            // Ask 10 people for their favorite numbers and create an array of those numbers; order the numbers using the sort method
+            // int[] favoriteNumbers = { 2, 12, 14, 32, 67, 10, 6, 8, 22, 23 };
+            // Array.Sort(favoriteNumbers);
+            // print the first and last numbers
+
+            // Console.WriteLine(favoriteNumbers[0]);
+
+            // int lengthOfFavoriteNumbers = favoriteNumbers.Length;
+            // Console.WriteLine(favoriteNumbers[lengthOfFavoriteNumbers - 1]);
+
+            // Console.WriteLine(favoriteNumbers[0]);
+            // Console.WriteLine(favoriteNumbers[9]);
+
+            //Console.WriteLine("Enter your favorite number.");
+            //int person1FavoriteNumber = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your favorite number.");
+            //int person2FavoriteNumber = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your favorite number.");
+            //int person3FavoriteNumber = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your favorite number.");
+            //int person4FavoriteNumber = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your favorite number.");
+            //int person5FavoriteNumber = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your favorite number.");
+            //int person6FavoriteNumber = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your favorite number.");
+            //int person7FavoriteNumber = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your favorite number.");
+            //int person8FavoriteNumber = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your favorite number.");
+            //int person9FavoriteNumber = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your favorite number.");
+            //int person10FavoriteNumber = int.Parse(Console.ReadLine());
+
+            //int[] favoriteNumbers = { person1FavoriteNumber, person2FavoriteNumber, person3FavoriteNumber, person4FavoriteNumber, person5FavoriteNumber, person6FavoriteNumber, person7FavoriteNumber, person8FavoriteNumber, person9FavoriteNumber, person10FavoriteNumber };
+
+            //Array.Sort(favoriteNumbers);
+
+            //// Console.WriteLine(favoriteNumbers[0]);
+
+            // int lengthOfFavoriteNumbers = favoriteNumbers.Length;
+            // Console.WriteLine(favoriteNumbers[lengthOfFavoriteNumbers - 1]);
 
 
         }
