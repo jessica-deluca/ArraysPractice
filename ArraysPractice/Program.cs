@@ -78,7 +78,43 @@ namespace ArraysPractice
             //// Create a new string variable and set it equal to the int at the index of 0 and convert it into a string
             //string firstIndex = ageOfStudentsInClass[0].ToString();
 
+            // string[] restaurantsInMall = { "Subway", "Saki", "Dunkin Donuts", "Red Lobster", "Chick-fil-A" };
+            // Console.WriteLine(restaurantsInMall.Length); // print the number of elements to the console
 
+            // declare any array but do not initialize (don't know elements)
+            // int[] myIntArrayAgain;
+
+            // declare & initialize an array when I know the elements
+            // char[] lettersInFirstName = { 'd', 'a', 'n', 'i', 'e', 'l' };
+
+            // declare & initialize an array when I don't know the elements but I know how many there will be
+            // string[] variableName = new string[42];
+
+            // to practice using .Length, create a char array of the letters in your middle name; print number of char's to console
+
+            // char[] myMiddleName = { 'r', 'a', 'e' };
+            // Console.WriteLine(myMiddleName.Length);
+
+            // declare & initialize a string array; using the Length property, print the second to last element in the array
+
+            // string[] restaurantsInMall = { "Subway", "Saki", "Dunkin Donuts", "Red Lobster", "Chick-fil-A" };
+            // int numRest = restaurantsInMall.Length; // length is not 0-indexed; it just counts how many there are
+            // Console.WriteLine(restaurantsInMall[numRest - 2]); // Red Lobster is index 3; 5 elements so "- 2" gets to the third element
+
+            // IndexOf is a method used to search an array for a specified value and returns the index position of the first matching value found
+            // int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
+            // Console.WriteLine(Array.IndexOf(bestYearsEver, 1985)); // IndexOf asks for parameters & returns first matching value (0 in this example); Array is an object here because it is capitalized
+
+            // LastOf is a method used to search an array for a specified value and returns the index position of the last matching value found
+            // Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985));
+
+            //// Reserve method
+            //int[] palidromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //Console.WriteLine(palidromeNumbers[0]);
+            //Console.WriteLine(palidromeNumbers[2]);
+            //Array.Reverse(palidromeNumbers); // reverses the order of the elements
+            //Console.WriteLine(palidromeNumbers[0]);
+            //Console.WriteLine(palidromeNumbers[2]);
 
 
 
